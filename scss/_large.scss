@@ -1,0 +1,83 @@
+//Large starts here
+
+//body
+
+body {
+    background-image: url(/images/polonez_car.png);
+    // background-color: white;
+    // margin-bottom: 1rem;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+#footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+// #wrapper {
+//     max-width: 60rem;
+//     margin: auto;
+//     box-shadow: 0 0 10px #000;
+//     background-color: white;
+// }
+
+#wrapper {
+    max-width: 60rem;
+    margin: auto;
+    background-color: white;
+    box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.5),
+        10px 0 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+//nav
+nav {
+    ul {
+        margin-left: $gutter;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    ul li {
+        width: auto
+    }
+
+    ul li:last-child {
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    ul li a {
+        padding: .5rem 1rem
+    }
+}
+
+//main
+
+main {
+    figure.photo {
+        width: 25% - $gutterdbl;
+        float: left;
+        margin: 0.5rem $gutter;
+    }
+
+    div.blog article {
+        float: left;
+        width: 33.33% - $gutterdbl;
+    }
+
+    div.blog article:nth-child(2n+1) {
+        clear: none;
+    }
+}
+
+//End of Large
